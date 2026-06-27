@@ -1,0 +1,4 @@
+# Cloudflare Pages：允许被以下来源以 iframe 嵌入（与 postMessage 父页一致）。
+# 存在 Content-Security-Policy: frame-ancestors 时，现代浏览器会忽略 X-Frame-Options。
+/*
+  Content-Security-Policy: frame-ancestors 'self' https://njmetro-railmap-creator.umamichi.moe http://localhost:5173 http://127.0.0.1:5173;
