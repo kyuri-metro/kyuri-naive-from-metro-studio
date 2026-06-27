@@ -186,7 +186,7 @@ export function App() {
       <section className="section" aria-labelledby="h-metro-studio">
         <h2 id="h-metro-studio">Metro Studio 项目 JSON</h2>
         <label className="field-label" htmlFor="metro-studio-in">
-          粘贴或上传 .metro-studio / .json 后选择线路并转换
+          粘贴或上传 .metro-studio.json / .json 后选择线路并转换
         </label>
         <textarea
           id="metro-studio-in"
@@ -224,7 +224,7 @@ export function App() {
             上传 JSON
             <input
               type="file"
-              accept=".json,.metro-studio,application/json"
+              accept=".json,.metro-studio.json,application/json"
               className="visually-hidden"
               onChange={(ev) => {
                 const f = ev.target.files?.[0];
